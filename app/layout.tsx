@@ -6,6 +6,7 @@ import { LoadingScreen } from "@/components/loading-screen";
 import { Navbar } from "@/components/navbar";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { owner } from "@/lib/content";
+import { Analytics } from "@vercel/analytics/next";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://srihari-ai-quality.vercel.app";
 
@@ -77,6 +78,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Navbar />
         <CommandPalette />
         {children}
+        <Analytics />
       </body>
     </html>
   );
