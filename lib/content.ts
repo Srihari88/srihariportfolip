@@ -28,7 +28,7 @@ export const owner = {
   linkedin:
     process.env.NEXT_PUBLIC_LINKEDIN_URL ??
     "https://www.linkedin.com/in/srihari-naidu-sdet/",
-  resume: process.env.NEXT_PUBLIC_RESUME_URL ?? "/SrihariNaiduPuduAIQA.pdf"
+  resume: process.env.NEXT_PUBLIC_RESUME_URL ?? "/resume-srihari-naidu.pdf"
 };
 
 export const rotatingKeywords = [
