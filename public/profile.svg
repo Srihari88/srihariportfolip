@@ -1,0 +1,19 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#061013"/>
+  <circle cx="450" cy="335" r="154" fill="#0D2428" stroke="#31F8FF" stroke-opacity=".5" stroke-width="3"/>
+  <path d="M250 780c22-146 95-220 200-220s178 74 200 220H250z" fill="#0A1B20" stroke="#31F8FF" stroke-opacity=".35" stroke-width="3"/>
+  <path d="M338 344c19-64 60-96 123-96 57 0 94 27 112 80-27-14-52-21-77-21-58 0-105 20-158 37z" fill="#111"/>
+  <circle cx="390" cy="360" r="12" fill="#BFFFF8"/>
+  <circle cx="515" cy="360" r="12" fill="#BFFFF8"/>
+  <path d="M382 428c48 32 96 32 144 0" stroke="#BFFFF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M206 162c157-70 326-75 508-12M170 706c191 60 378 57 560-10M137 447h626M450 82v736" stroke="#31F8FF" stroke-opacity=".16" stroke-width="2"/>
+  <g filter="url(#a)">
+    <circle cx="450" cy="450" r="314" stroke="#00F5C8" stroke-opacity=".32" stroke-width="2" stroke-dasharray="10 18"/>
+    <circle cx="450" cy="450" r="246" stroke="#31F8FF" stroke-opacity=".24" stroke-width="2"/>
+  </g>
+  <defs>
+    <filter id="a" x="98" y="98" width="704" height="704" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+</svg>
