@@ -21,46 +21,9 @@ npm run dev
 
 Open `http://localhost:3000`.
 
-## Environment Variables
 
-Copy `.env.example` to `.env.local` and update:
-
-```bash
-NEXT_PUBLIC_SITE_URL=https://your-vercel-domain.vercel.app
-NEXT_PUBLIC_GITHUB_USERNAME=sriharinaidu
-NEXT_PUBLIC_LINKEDIN_URL=https://www.linkedin.com/in/your-profile
-NEXT_PUBLIC_GITHUB_URL=https://github.com/sriharinaidu
-NEXT_PUBLIC_EMAIL=hello@sriharinaidu.dev
-NEXT_PUBLIC_RESUME_URL=/resume-srihari-naidu.pdf
 ```
 
-## Folder Structure
-
-```text
-app/
-  page.tsx
-  projects/page.tsx
-  experience/page.tsx
-  blog/page.tsx
-  contact/page.tsx
-  layout.tsx
-  globals.css
-components/
-  hero.tsx
-  cards.tsx
-  timeline.tsx
-  github-panel.tsx
-  ai-chat.tsx
-  command-palette.tsx
-  background.tsx
-  navbar.tsx
-lib/
-  content.ts
-  utils.ts
-public/
-  profile.svg
-  og.svg
-```
 
 ## Vercel Deployment
 
